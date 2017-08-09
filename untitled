@@ -1,0 +1,41 @@
+function addVideo(){
+	
+    global $app;
+    $req  = $app->request();
+    $title = $req->params('title');
+    $video_id = $req->params('video_id');
+
+    try {
+        $dbCon       = getConnection();
+	      
+		$sql = "INSERT INTO video SET title = '". $title ."',video_id= '". $video_id ."'";
+		
+		$stmt  = $dbCon->prepare($sql);
+		$stmt->execute();
+		$video    = new stdClass();
+		$video->v_id = $dbCon->lastInsertId();
+            print_r($sql); die;
+
+		if (!empty($video->v_id)) {
+
+			$video_array = array(
+				'success' => '1',
+			);
+		}else {
+			$video_array = array(
+				'success' => '0',
+			);
+		}
+		
+        $dbCon = null;
+        echo json_encode($video_array);
+    }
+    catch (PDOException $e) {
+        echo '{"error":{"text":' . $e->getMessage() . '}}';
+    }
+}
+
+
+
+
+

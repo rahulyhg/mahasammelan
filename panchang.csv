@@ -1,0 +1,388 @@
+date{m/d/Y},weekday,lunar_year,lunar_month,lunar_tithi,"shubh_din { Yes, No}",lunar_cycle,description
+12 Nov 15,Thursday,2072,Karthik,1,,Shukla,Nutan Varsh Prarambh
+13 Nov 15,Friday,2072,Karthik,2,Yes,Shukla,
+14 Nov 15,Saturday,2072,Karthik,3,,Shukla,Shri Suvidhinath - Kevalgyan Kalyanak
+15 Nov 15,Sunday,2072,Karthik,4,Yes,Shukla,
+16 Nov 15,Monday,2072,Karthik,5,Yes,Shukla,Gyan Panchami
+17 Nov 15,Tuesday,2072,Karthik,6,,Shukla,
+18 Nov 15,Wednesday,2072,Karthik,7,Yes,Shukla,
+19 Nov 15,Thursday,2072,Karthik,8,,Shukla,
+20 Nov 15,Friday,2072,Karthik,9,,Shukla,
+21 Nov 15,Saturday,2072,Karthik,10,,Shukla,
+22 Nov 15,Sunday,2072,Karthik,11,,Shukla,
+23 Nov 15,Monday,2072,Karthik,12,Yes,Shukla,Shri Arnath - Kevalgyan Kalyanak
+24 Nov 15,Tuesday,2072,Karthik,13,Yes,Shukla,
+25 Nov 15,Wednesday,2072,Karthik,14,,Shukla,Choumasi Pratikraman
+,,,Karthik,15,,Shukla,
+26 Nov 15,Thursday,2072,Margshirsh,1,,Krushna,
+27 Nov 15,Friday,2072,Margshirsh,2,Yes,Krushna,
+28 Nov 15,Saturday,2072,Margshirsh,3,,Krushna,Dada Jinkushalsuri - Janmtithi
+29 Nov 15,Sunday,2072,Margshirsh,4,Yes,Krushna,
+30 Nov 15,Monday,2072,Margshirsh,5,Yes,Krushna,Shri Suvidhinath - Janm Kalyanak
+1 Dec 15,Tuesday,2072,Margshirsh,6,,Krushna,Shri Suvidhinath - Diksha Kalyanak
+2 Dec 15,Wednesday,2072,Margshirsh,7,Yes,Krushna,Acharya Jinkantisagarsuri Punyatithi
+3 Dec 15,Thursday,2072,Margshirsh,8,,Krushna,
+4 Dec 15,Friday,2072,Margshirsh,9,,Krushna,
+5 Dec 15,Saturday,2072,Margshirsh,10,,Krushna,Shri Mahaveerswami - Diksha Kalyanak
+6 Dec 15,Sunday,2072,Margshirsh,10,Yes,Krushna,
+7 Dec 15,Monday,2072,Margshirsh,11,Yes,Krushna,Shri Padmaprabhswami - Moksh Kalyanak
+8 Dec 15,Tuesday,2072,Margshirsh,12,,Krushna,
+9 Dec 15,Wednesday,2072,Margshirsh,13,,Krushna,
+10 Dec 15,Thursday,2072,Margshirsh,14,,Krushna,Pakshik Pratikraman
+11 Dec 15,Friday,2072,Margshirsh,30,,Krushna,
+12 Dec 15,Saturday,2072,Margshirsh,1,,Shukla,
+13 Dec 15,Sunday,2072,Margshirsh,2,,Shukla,
+14 Dec 15,Monday,2072,Margshirsh,3,Yes,Shukla,
+15 Dec 15,Tuesday,2072,Margshirsh,4,,Shukla,
+16 Dec 15,Wednesday,2072,Margshirsh,5,,Shukla,
+17 Dec 15,Thursday,2072,Margshirsh,6,,Shukla,
+18 Dec 15,Friday,2072,Margshirsh,7,,Shukla,
+19 Dec 15,Saturday,2072,Margshirsh,8,,Shukla,
+,,,Margshirsh,9,,Shukla,
+20 Dec 15,Sunday,2072,Margshirsh,10,,Shukla,Shri Arnath - Janm Kalyanak; Shri Arnath - Moksh Kalyanak
+21 Dec 15,Monday,2072,Margshirsh,11,Yes,Shukla,Moun Ekadasi; Shri Arnath - Diksha Kalyanak; Shri Mallinath - Janm Kalyanak; Shri Mallinath - Diksha Kalyanak; Shri Mallinath - Kevalgyan Kalyanak; Shri Naminath - Kevalgyan Kalyanak
+22 Dec 15,Tuesday,2072,Margshirsh,12,,Shukla,
+23 Dec 15,Wednesday,2072,Margshirsh,13,,Shukla,
+24 Dec 15,Thursday,2072,Margshirsh,14,,Shukla,Pakshik Pratikraman; Shri Sambhavnath - Janm Kalyanak
+25 Dec 15,Friday,2072,Margshirsh,15,Yes,Shukla,Shri Sambhavnath - Diksha Kalyanak
+26 Dec 15,Saturday,2072,Posh,1,,Krushna,
+27 Dec 15,Sunday,2072,Posh,2,Yes,Krushna,
+28 Dec 15,Monday,2072,Posh,3,Yes,Krushna,
+29 Dec 15,Tuesday,2072,Posh,4,,Krushna,
+30 Dec 15,Wednesday,2072,Posh,5,Yes,Krushna,
+31 Dec 15,Thursday,2072,Posh,6,,Krushna,
+1 Jan 16,Friday,2072,Posh,7,Yes,Krushna,
+2 Jan 16,Saturday,2072,Posh,8,,Krushna,
+3 Jan 16,Sunday,2072,Posh,9,Yes,Krushna,
+4 Jan 16,Monday,2072,Posh,10,Yes,Krushna,Posh Dasami - Shri Parshvanath - Janm Kalyanak
+5 Jan 16,Tuesday,2072,Posh,11,,Krushna,Shri Parshvanath - Diksha Kalyanak
+6 Jan 16,Wednesday,2072,Posh,12,Yes,Krushna,Shri Chandraprabhswami - Janm Kalyanak
+7 Jan 16,Thursday,2072,Posh,12,,Krushna,
+8 Jan 16,Friday,2072,Posh,13,,Krushna,Shri Chandraprabhswami - Diksha Kalyanak
+9 Jan 16,Saturday,2072,Posh,14,,Krushna,Pakshik Pratikraman; Shri Shitalnath - Kevalgyan Kalyanak
+,,,Posh,30,,Krushna,
+10 Jan 16,Sunday,2072,Posh,1,,Shukla,
+11 Jan 16,Monday,2072,Posh,2,Yes,Shukla,
+12 Jan 16,Tuesday,2072,Posh,3,,Shukla,
+13 Jan 16,Wednesday,2072,Posh,4,,Shukla,
+14 Jan 16,Thursday,2072,Posh,5,Yes,Shukla,
+15 Jan 16,Friday,2072,Posh,6,Yes,Shukla,Shri Vimalnath - Kevalgyan Kalyanak
+16 Jan 16,Saturday,2072,Posh,7,Yes,Shukla,
+17 Jan 16,Sunday,2072,Posh,8,,Shukla,
+18 Jan 16,Monday,2072,Posh,9,,Shukla,Shri Shantinath - Kevalgyan Kalyanak
+19 Jan 16,Tuesday,2072,Posh,10,,Shukla,
+20 Jan 16,Wednesday,2072,Posh,11,Yes,Shukla,Shri Ajitnath - Kevalgyan Kalyanak
+21 Jan 16,Thursday,2072,Posh,12,Yes,Shukla,
+22 Jan 16,Friday,2072,Posh,13,,Shukla,Shri Abhinandanswami - Kevalgyan Kalyanak
+,,,Posh,14,,Shukla,
+23 Jan 16,Saturday,2072,Posh,15,,Shukla,Pakshik Pratikraman; Shri Dharmanath - Kevalgyan Kalyanak
+24 Jan 16,Sunday,2072,Magh,1,Yes,Krushna,
+25 Jan 16,Monday,2072,Magh,1,,Krushna,
+26 Jan 16,Tuesday,2072,Magh,2,,Krushna,
+27 Jan 16,Wednesday,2072,Magh,3,,Krushna,
+28 Jan 16,Thursday,2072,Magh,4,,Krushna,
+29 Jan 16,Friday,2072,Magh,5,Yes,Krushna,
+30 Jan 16,Saturday,2072,Magh,6,Yes,Krushna,Shri Padmaprabhswami - Chyavan Kalyanak
+31 Jan 16,Sunday,2072,Magh,7,Yes,Krushna,
+1 Feb 16,Monday,2072,Magh,8,,Krushna,
+2 Feb 16,Tuesday,2072,Magh,9,,Krushna,
+3 Feb 16,Wednesday,2072,Magh,10,Yes,Krushna,
+4 Feb 16,Thursday,2072,Magh,11,,Krushna,
+5 Feb 16,Friday,2072,Magh,12,Yes,Krushna,Shri Shitalnath - Janm Kalyanak; Shri Shitalnath - Diksha Kalyanak
+6 Feb 16,Saturday,2072,Magh,13,Yes,Krushna,Shri Adinath - Moksh Kalyanak
+7 Feb 16,Sunday,2072,Magh,14,,Krushna,Pakshik Pratikraman
+8 Feb 16,Monday,2072,Magh,30,,Krushna,Shri Shreyanshnath - Kevalgyan Kalyanak
+9 Feb 16,Tuesday,2072,Magh,1,,Shukla,
+10 Feb 16,Wednesday,2072,Magh,2,Yes,Shukla,Shri Abhinandanswami - Janm Kalyanak; Shri Vasupujya - Kevalgyan Kalyanak
+11 Feb 16,Thursday,2072,Magh,3,,Shukla,Shri Dharmanath - Janm Kalyanak; Shri Vimalnath - Janm Kalyanak
+12 Feb 16,Friday,2072,Magh,4,,Shukla,Shri Vimalnath - Diksha Kalyanak
+,,,Magh,5,,Shukla,
+13 Feb 16,Saturday,2072,Magh,6,Yes,Shukla,
+14 Feb 16,Sunday,2072,Magh,7,,Shukla,
+15 Feb 16,Monday,2072,Magh,8,,Shukla,Shri Ajitnath - Janm Kalyanak
+16 Feb 16,Tuesday,2072,Magh,9,,Shukla,Shri Ajitnath - Diksha Kalyanak
+17 Feb 16,Wednesday,2072,Magh,10,Yes,Shukla,
+18 Feb 16,Thursday,2072,Magh,11,,Shukla,
+19 Feb 16,Friday,2072,Magh,12,Yes,Shukla,Shri Abhinandanswami - Diksha Kalyanak
+20 Feb 16,Saturday,2072,Magh,13,Yes,Shukla,Shri Dharmanath - Diksha Kalyanak
+21 Feb 16,Sunday,2072,Magh,14,,Shukla,Pakshik Pratikraman
+22 Feb 16,Monday,2072,Magh,15,,Shukla,
+23 Feb 16,Tuesday,2072,Falgun,1,,Krushna,
+24 Feb 16,Wednesday,2072,Falgun,2,Yes,Krushna,
+25 Feb 16,Thursday,2072,Falgun,3,,Krushna,
+26 Feb 16,Friday,2072,Falgun,4,,Krushna,
+27 Feb 16,Saturday,2072,Falgun,4,Yes,Krushna,
+28 Feb 16,Sunday,2072,Falgun,5,Yes,Krushna,
+29 Feb 16,Monday,2072,Falgun,6,,Krushna,Shri Suparshwanath - Kevalgyan Kalyanak
+1 Mar 16,Tuesday,2072,Falgun,7,,Krushna,Shri Suparshwanath - Moksh Kalyanak; Shri Chandraprabhswami - Kevalgyan Kalyanak
+2 Mar 16,Wednesday,2072,Falgun,8,,Krushna,
+3 Mar 16,Thursday,2072,Falgun,9,,Krushna,Shri Suvidhinath - Chyavan Kalyanak
+4 Mar 16,Friday,2072,Falgun,10,,Krushna,
+5 Mar 16,Saturday,2072,Falgun,11,Yes,Krushna,Shri Adinath - Kevalgyan Kalyanak
+6 Mar 16,Sunday,2072,Falgun,12,,Krushna,Shri Shreyanshnath - Janm Kalyanak; Shri Munisuvratswami - Kevalgyan Kalyanak
+7 Mar 16,Monday,2072,Falgun,13,Yes,Krushna,Shri Shreyanshnath - Diksha Kalyanak
+8 Mar 16,Tuesday,2072,Falgun,14,,Krushna,Pakshik Pratikraman; Shri Vasupujyaswami - Janm Kalyanak
+9 Mar 16,Wednesday,2072,Falgun,30,,Krushna,Shri Vasupujyaswami - Diksha Kalyanak; Dada Jinkushalsuri - Punyatithi
+,,,Falgun,1,,Shukla,
+10 Mar 16,Thursday,2072,Falgun,2,,Shukla,Shri Arnath - Chyavan Kalyanak
+11 Mar 16,Friday,2072,Falgun,3,Yes,Shukla,
+12 Mar 16,Saturday,2072,Falgun,4,Yes,Shukla,Shri Mallinath - Chyavan Kalyanak
+13 Mar 16,Sunday,2072,Falgun,5,,Shukla,
+14 Mar 16,Monday,2072,Falgun,6,,Shukla,
+15 Mar 16,Tuesday,2072,Falgun,7,,Shukla,
+16 Mar 16,Wednesday,2072,Falgun,8,,Shukla,Shri Sambhavnath - Chyavan Kalyanak
+17 Mar 16,Thursday,2072,Falgun,9,,Shukla,
+18 Mar 16,Friday,2072,Falgun,10,Yes,Shukla,
+19 Mar 16,Saturday,2072,Falgun,11,Yes,Shukla,
+20 Mar 16,Sunday,2072,Falgun,12,,Shukla,Shri Mallinath - Moksh Kalyanak; Shri Munisuvratswami - Diksha Kalyanak
+21 Mar 16,Monday,2072,Falgun,13,Yes,Shukla,
+22 Mar 16,Tuesday,2072,Falgun,14,,Shukla,Choumasi Pratikraman
+23 Mar 16,Wednesday,2072,Falgun,15,Yes,Shukla,
+24 Mar 16,Thursday,2072,Chaitra,1,,Krushna,
+25 Mar 16,Friday,2072,Chaitra,2,Yes,Krushna,
+26 Mar 16,Saturday,2072,Chaitra,3,Yes,Krushna,
+27 Mar 16,Sunday,2072,Chaitra,4,,Krushna,Shri Parshvanath - Chyavan Kalyanak; Shri Parshvanath - Kevalgyan Kalyanak
+28 Mar 16,Monday,2072,Chaitra,5,,Krushna,Shri Chandraprabhswami - Chyavan Kalyanak
+29 Mar 16,Tuesday,2072,Chaitra,6,,Krushna,
+30 Mar 16,Wednesday,2072,Chaitra,6,,Krushna,
+31 Mar 16,Thursday,2072,Chaitra,7,Yes,Krushna,
+1 Apr 16,Friday,2072,Chaitra,8,,Krushna,Shri Adinath - Janm Kalyanak; Shri Adinath - Diksha Kalyanak
+2 Apr 16,Saturday,2072,Chaitra,9,Yes,Krushna,
+3 Apr 16,Sunday,2072,Chaitra,10,,Krushna,
+,,,Chaitra,11,,Krushna,
+4 Apr 16,Monday,2072,Chaitra,12,,Krushna,
+5 Apr 16,Tuesday,2072,Chaitra,13,Yes,Krushna,
+6 Apr 16,Wednesday,2072,Chaitra,14,,Krushna,Pakshik Pratikraman
+7 Apr 16,Thursday,2072,Chaitra,30,,Krushna,
+8 Apr 16,Friday,2073,Chaitra,1,Yes,Shukla,
+9 Apr 16,Saturday,2073,Chaitra,2,,Shukla,Shri Kunthunath - Kevalgyan Kalyanak
+,,,Chaitra,3,,Shukla,
+10 Apr 16,Sunday,2073,Chaitra,4,,Shukla,
+11 Apr 16,Monday,2073,Chaitra,5,Yes,Shukla,Shri Ajitnath - Moksh Kalyanak; Shri Sambhavnath - Moksh Kalyanak; Shri Anantnath - Moksh Kalyanak
+12 Apr 16,Tuesday,2073,Chaitra,6,,Shukla,
+13 Apr 16,Wednesday,2073,Chaitra,7,,Shukla,
+14 Apr 16,Thursday,2073,Chaitra,8,Yes,Shukla,Navpad Oli Prarambh
+15 Apr 16,Friday,2073,Chaitra,9,Yes,Shukla,Shri Sumatinath - Moksh Kalyanak
+16 Apr 16,Saturday,2073,Chaitra,10,,Shukla,
+17 Apr 16,Sunday,2073,Chaitra,11,Yes,Shukla,Shri Sumatinath - Kevalgyan Kalyanak
+18 Apr 16,Monday,2073,Chaitra,12,,Shukla,
+19 Apr 16,Tuesday,2073,Chaitra,13,,Shukla,Mahaveer Jayanthi - Shri Mahaveerswami - Janm Kalyanak
+20 Apr 16,Wednesday,2073,Chaitra,14,,Shukla,Pakshik Pratikraman
+21 Apr 16,Thursday,2073,Chaitra,14,,Shukla,
+22 Apr 16,Friday,2073,Chaitra,15,Yes,Shukla,Navapad Oli Samapan; Shri Padmaprabhswami - Kevalgyan Kalyanak
+23 Apr 16,Saturday,2073,Vaishakh,1,Yes,Krushna,Shri Kunthunath - Moksh Kalyanak
+24 Apr 16,Sunday,2073,Vaishakh,2,,Krushna,Shri Shitalnath - Moksh Kalyanak
+25 Apr 16,Monday,2073,Vaishakh,3,Yes,Krushna,
+26 Apr 16,Tuesday,2073,Vaishakh,4,,Krushna,
+27 Apr 16,Wednesday,2073,Vaishakh,5,,Krushna,Shri Kunthunath - Diksha Kalyanak
+28 Apr 16,Thursday,2073,Vaishakh,6,,Krushna,Shri Shitalnath - Chyavan Kalyanak
+29 Apr 16,Friday,2073,Vaishakh,7,Yes,Krushna,
+30 Apr 16,Saturday,2073,Vaishakh,8,,Krushna,
+1 May 16,Sunday,2073,Vaishakh,9,,Krushna,
+2 May 16,Monday,2073,Vaishakh,10,Yes,Krushna,Shri Naminath - Moksh Kalyanak
+3 May 16,Tuesday,2073,Vaishakh,11,,Krushna,
+4 May 16,Wednesday,2073,Vaishakh,12,Yes,Krushna,
+5 May 16,Thursday,2073,Vaishakh,13,,Krushna,Shri Anantnath - Janm Kalyanak
+,,,Vaishakh,14,,Krushna,Shri Anantnath - Diksha Kalyanak; Shri Anantnath - Kevalgyan Kalyanak; Shri Kunthunath - Janm Kalyanak
+6 May 16,Friday,2073,Vaishakh,30,,Krushna,Pakshik Pratikraman
+7 May 16,Saturday,2073,Vaishakh,1,,Shukla,
+8 May 16,Sunday,2073,Vaishakh,2,,Shukla,
+9 May 16,Monday,2073,Vaishakh,3,Yes,Shukla,Akshay Trutya
+10 May 16,Tuesday,2073,Vaishakh,4,,Shukla,Shri Abhinandanswami - Chyavan Kalyanak
+11 May 16,Wednesday,2073,Vaishakh,5,,Shukla,
+12 May 16,Thursday,2073,Vaishakh,6,Yes,Shukla,
+13 May 16,Friday,2073,Vaishakh,7,Yes,Shukla,Shri Dharmanath - Chyavan Kalyanak
+14 May 16,Saturday,2073,Vaishakh,8,,Shukla,Shri Abhinandanswami - Moksh Kalyanak; Shri Sumatinath - Janm Kalyanak
+15 May 16,Sunday,2073,Vaishakh,9,Yes,Shukla,Shri Sumatinath - Diksha Kalyanak
+16 May 16,Monday,2073,Vaishakh,10,,Shukla,Shri Mahaveerswami - Kevalgyan Kalyanak
+17 May 16,Tuesday,2073,Vaishakh,11,,Shukla,
+18 May 16,Wednesday,2073,Vaishakh,12,Yes,Shukla,Shri Vimalnath - Chyavan Kalyanak
+19 May 16,Thursday,2073,Vaishakh,13,Yes,Shukla,Shri Ajitnath - Chyavan Kalyanak
+20 May 16,Friday,2073,Vaishakh,14,Yes,Shukla,Pakshik Pratikraman
+21 May 16,Saturday,2073,Vaishakh,15,,Shukla,
+22 May 16,Sunday,2073,Jyesht,1,,Krushna,
+23 May 16,Monday,2073,Jyesht,2,,Krushna,
+24 May 16,Tuesday,2073,Jyesht,3,,Krushna,
+25 May 16,Wednesday,2073,Jyesht,3,,Krushna,
+26 May 16,Thursday,2073,Jyesht,4,,Krushna,
+27 May 16,Friday,2073,Jyesht,5,Yes,Krushna,
+28 May 16,Saturday,2073,Jyesht,6,,Krushna,Shri Shreyansnath - Chyavan Kalyanak
+29 May 16,Sunday,2073,Jyesht,7,,Krushna,
+,,,Jyesht,8,,Krushna,Shri Munisvratswami - Janm Kalyanak
+30 May 16,Monday,2073,Jyesht,9,,Krushna,Shri Munisvratswami - Moksh Kalyanak
+31 May 16,Tuesday,2073,Jyesht,10,,Krushna,
+1 Jun 16,Wednesday,2073,Jyesht,11,Yes,Krushna,
+2 Jun 16,Thursday,2073,Jyesht,12,Yes,Krushna,
+3 Jun 16,Friday,2073,Jyesht,13,,Krushna,Shri Shantinath - Janm Kalyanak; Shri Shantinath - Moksh Kalyanak
+4 Jun 16,Saturday,2073,Jyesht,14,Yes,Krushna,Pakshik Pratikraman; Shri Shantinath - Diksha Kalyanak
+5 Jun 16,Sunday,2073,Jyesht,30,,Krushna,
+,,,Jyesht,1,,Shukla,
+6 Jun 16,Monday,2073,Jyesht,2,Yes,Shukla,
+7 Jun 16,Tuesday,2073,Jyesht,3,,Shukla,
+8 Jun 16,Wednesday,2073,Jyesht,4,,Shukla,
+9 Jun 16,Thursday,2073,Jyesht,5,Yes,Shukla,Shri Dharmanath - Moksh Kalyanak
+10 Jun 16,Friday,2073,Jyesht,6,Yes,Shukla,
+11 Jun 16,Saturday,2073,Jyesht,7,Yes,Shukla,
+12 Jun 16,Sunday,2073,Jyesht,8,,Shukla,
+13 Jun 16,Monday,2073,Jyesht,9,,Shukla,Shri Vasupujyaswami - Chyavan Kalyanak
+14 Jun 16,Tuesday,2073,Jyesht,10,,Shukla,
+15 Jun 16,Wednesday,2073,Jyesht,10,Yes,Shukla,
+16 Jun 16,Thursday,2073,Jyesht,11,Yes,Shukla,
+17 Jun 16,Friday,2073,Jyesht,12,,Shukla,Shri Suparshwanath - Janm Kalyanak
+18 Jun 16,Saturday,2073,Jyesht,13,,Shukla,Shri Suparshwanath - Diksha Kalyanak
+19 Jun 16,Sunday,2073,Jyesht,14,,Shukla,Pakshik Pratikraman
+20 Jun 16,Monday,2073,Jyesht,15,Yes,Shukla,
+21 Jun 16,Tuesday,2073,Ashad,1,,Krushna,Aadra Nakshatra Prarambh - Aam Tyag
+22 Jun 16,Wednesday,2073,Ashad,2,Yes,Krushna,
+23 Jun 16,Thursday,2073,Ashad,3,,Krushna,
+24 Jun 16,Friday,2073,Ashad,4,,Krushna,Shri Adinath - Chyavan Kalyanak
+25 Jun 16,Saturday,2073,Ashad,5,,Krushna,
+26 Jun 16,Sunday,2073,Ashad,6,,Krushna,
+27 Jun 16,Monday,2073,Ashad,7,Yes,Krushna,Shri Vimalnath - Moksh Kalyanak
+28 Jun 16,Tuesday,2073,Ashad,8,,Krushna,
+29 Jun 16,Wednesday,2073,Ashad,9,,Krushna,Shri Naminath - Diksha Kalyanak
+30 Jun 16,Thursday,2073,Ashad,10,,Krushna,
+,,,Ashad,11,,Krushna,
+1 Jul 16,Friday,2073,Ashad,12,,Krushna,
+2 Jul 16,Saturday,2073,Ashad,13,Yes,Krushna,
+3 Jul 16,Sunday,2073,Ashad,14,Yes,Krushna,Pakshik Pratikraman
+4 Jul 16,Monday,2073,Ashad,30,,Krushna,
+5 Jul 16,Tuesday,2073,Ashad,1,,Shukla,
+6 Jul 16,Wednesday,2073,Ashad,2,Yes,Shukla,
+7 Jul 16,Thursday,2073,Ashad,3,,Shukla,
+8 Jul 16,Friday,2073,Ashad,4,,Shukla,
+9 Jul 16,Saturday,2073,Ashad,5,,Shukla,
+10 Jul 16,Sunday,2073,Ashad,6,,Shukla,Shri Mahaveerswami - Chyavan Kalyanak
+11 Jul 16,Monday,2073,Ashad,7,Yes,Shukla,
+12 Jul 16,Tuesday,2073,Ashad,8,,Shukla,Shri Neminath - Moksh Kalyanak
+13 Jul 16,Wednesday,2073,Ashad,9,Yes,Shukla,
+14 Jul 16,Thursday,2073,Ashad,10,Yes,Shukla,
+15 Jul 16,Friday,2073,Ashad,11,,Shukla,Dada Jinduttsuri - Puyatithi
+16 Jul 16,Saturday,2073,Ashad,12,,Shukla,
+17 Jul 16,Sunday,2073,Ashad,13,,Shukla,
+18 Jul 16,Monday,2073,Ashad,14,,Shukla,Chaturmas Prarambh - Choumasi Pratikraman; Shri Vasupujyaswami - Moksh Kalyanak
+19 Jul 16,Tuesday,2073,Ashad,15,,Shukla,
+20 Jul 16,Wednesday,2073,Shravan,1,,Krushna,
+21 Jul 16,Thursday,2073,Shravan,2,Yes,Krushna,
+22 Jul 16,Friday,2073,Shravan,3,Yes,Krushna,Shri Shreyansnath - Moksh Kalyanak
+23 Jul 16,Saturday,2073,Shravan,4,Yes,Krushna,
+24 Jul 16,Sunday,2073,Shravan,5,,Krushna,
+25 Jul 16,Monday,2073,Shravan,6,Yes,Krushna,
+26 Jul 16,Tuesday,2073,Shravan,7,,Krushna,Shri Anantnath - Chyavan Kalyanak
+27 Jul 16,Wednesday,2073,Shravan,8,,Krushna,Shri Naminath - Janm Kalyanak
+28 Jul 16,Thursday,2073,Shravan,9,,Krushna,Shri Kunthunath - Chyavan Kalyanak
+29 Jul 16,Friday,2073,Shravan,10,Yes,Krushna,
+30 Jul 16,Saturday,2073,Shravan,11,Yes,Krushna,
+31 Jul 16,Sunday,2073,Shravan,12,,Krushna,
+,,,Shravan,13,,Krushna,
+1 Aug 16,Monday,2073,Shravan,14,Yes,Krushna,Pakshik Pratikraman
+2 Aug 16,Tuesday,2073,Shravan,30,,Krushna,
+3 Aug 16,Wednesday,2073,Shravan,1,,Shukla,
+4 Aug 16,Thursday,2073,Shravan,2,Yes,Shukla,Shri Sumatinath - Chyavan Kalyanak
+5 Aug 16,Friday,2073,Shravan,3,Yes,Shukla,
+6 Aug 16,Saturday,2073,Shravan,4,Yes,Shukla,
+7 Aug 16,Sunday,2073,Shravan,5,,Shukla,Shri Neminath - Janm Kalyanak
+8 Aug 16,Monday,2073,Shravan,6,,Shukla,Shri Neminath - Diksha Kalyanak
+9 Aug 16,Tuesday,2073,Shravan,6,,Shukla,
+10 Aug 16,Wednesday,2073,Shravan,7,Yes,Shukla,
+11 Aug 16,Thursday,2073,Shravan,8,,Shukla,Shri Parshwanath - Moksh Kalyanak
+12 Aug 16,Friday,2073,Shravan,9,Yes,Shukla,
+13 Aug 16,Saturday,2073,Shravan,10,,Shukla,
+14 Aug 16,Sunday,2073,Shravan,11,Yes,Shukla,
+15 Aug 16,Monday,2073,Shravan,12,,Shukla,
+16 Aug 16,Tuesday,2073,Shravan,13,Yes,Shukla,
+17 Aug 16,Wednesday,2073,Shravan,14,,Shukla,Pakshik Pratikraman
+18 Aug 16,Thursday,2073,Shravan,15,Yes,Shukla,Shri Munisuvratswami - Chyavan Kalyanak
+19 Aug 16,Friday,2073,Bhadrapad,1,Yes,Krushna,
+20 Aug 16,Saturday,2073,Bhadrapad,2,,Krushna,
+21 Aug 16,Sunday,2073,Bhadrapad,3,,Krushna,
+,,,Bhadrapad,4,,Krushna,
+22 Aug 16,Monday,2073,Bhadrapad,5,Yes,Krushna,
+23 Aug 16,Tuesday,2073,Bhadrapad,6,,Krushna,
+24 Aug 16,Wednesday,2073,Bhadrapad,7,Yes,Krushna,Shri Chandraprabhswami - Moksh Kalyanak; Shri Shantinath - Chyavan Kalyanak
+25 Aug 16,Thursday,2073,Bhadrapad,8,,Krushna,Shri Suparshwanath - Chyavan Kalyanak
+26 Aug 16,Friday,2073,Bhadrapad,9,Yes,Krushna,Shri Suvidhinath - Moksh Kalyanak
+27 Aug 16,Saturday,2073,Bhadrapad,10,Yes,Krushna,
+28 Aug 16,Sunday,2073,Bhadrapad,11,,Krushna,
+29 Aug 16,Monday,2073,Bhadrapad,12,Yes,Krushna,Parvadhiraj Paryushan Prarambh
+30 Aug 16,Tuesday,2073,Bhadrapad,13,,Krushna,
+31 Aug 16,Wednesday,2073,Bhadrapad,14,,Krushna,Manidhari Jinchandraksuri - Punyatithi; Pakshik Pratikraman
+1 Sep 16,Thursday,2073,Bhadrapad,30,,Krushna,
+2 Sep 16,Friday,2073,Bhadrapad,1,Yes,Shukla,
+3 Sep 16,Saturday,2073,Bhadrapad,2,,Shukla,
+4 Sep 16,Sunday,2073,Bhadrapad,3,Yes,Shukla,
+5 Sep 16,Monday,2073,Bhadrapad,4,,Shukla,Samvatsari Mahparv
+6 Sep 16,Tuesday,2073,Bhadrapad,5,,Shukla,
+7 Sep 16,Wednesday,2073,Bhadrapad,6,,Shukla,
+8 Sep 16,Thursday,2073,Bhadrapad,7,,Shukla,
+9 Sep 16,Friday,2073,Bhadrapad,8,,Shukla,
+10 Sep 16,Saturday,2073,Bhadrapad,9,,Shukla,
+11 Sep 16,Sunday,2073,Bhadrapad,9,Yes,Shukla,
+12 Sep 16,Monday,2073,Bhadrapad,10,,Shukla,
+13 Sep 16,Tuesday,2073,Bhadrapad,11,,Shukla,
+14 Sep 16,Wednesday,2073,Bhadrapad,12,,Shukla,
+,,,Bhadrapad,13,,Shukla,
+15 Sep 16,Thursday,2073,Bhadrapad,14,,Shukla,Pakshik Pratikraman
+16 Sep 16,Friday,2073,Bhadrapad,15,Yes,Shukla,
+17 Sep 16,Saturday,2073,Ashwin,1,,Krushna,
+18 Sep 16,Sunday,2073,Ashwin,2,,Krushna,Dada Jinchandrasuri Punyatithi
+19 Sep 16,Monday,2073,Ashwin,3,Yes,Krushna,
+20 Sep 16,Tuesday,2073,Ashwin,4,,Krushna,
+21 Sep 16,Wednesday,2073,Ashwin,5,,Krushna,
+,,,Ashwin,6,,Krushna,
+22 Sep 16,Thursday,2073,Ashwin,7,,Krushna,
+23 Sep 16,Friday,2073,Ashwin,8,,Krushna,
+24 Sep 16,Saturday,2073,Ashwin,9,Yes,Krushna,
+25 Sep 16,Sunday,2073,Ashwin,10,,Krushna,
+26 Sep 16,Monday,2073,Ashwin,11,Yes,Krushna,
+27 Sep 16,Tuesday,2073,Ashwin,12,,Krushna,
+28 Sep 16,Wednesday,2073,Ashwin,13,Yes,Krushna,Shri Mahaveerswami - Garbhapahaar
+29 Sep 16,Thursday,2073,Ashwin,14,,Krushna,Pakshik Pratikraman
+30 Sep 16,Friday,2073,Ashwin,30,,Krushna,Shri Neminath - Kevalgyan Kalyanak
+1 Oct 16,Saturday,2073,Ashwin,1,,Shukla,
+2 Oct 16,Sunday,2073,Ashwin,1,Yes,Shukla,
+3 Oct 16,Monday,2073,Ashwin,2,Yes,Shukla,
+4 Oct 16,Tuesday,2073,Ashwin,3,,Shukla,
+5 Oct 16,Wednesday,2073,Ashwin,4,Yes,Shukla,
+6 Oct 16,Thursday,2073,Ashwin,5,,Shukla,
+7 Oct 16,Friday,2073,Ashwin,6,,Shukla,
+8 Oct 16,Saturday,2073,Ashwin,7,,Shukla,Navpad Oli Prarambh
+9 Oct 16,Sunday,2073,Ashwin,8,,Shukla,
+10 Oct 16,Monday,2073,Ashwin,9,,Shukla,
+11 Oct 16,Tuesday,2073,Ashwin,10,,Shukla,
+12 Oct 16,Wednesday,2073,Ashwin,11,Yes,Shukla,
+13 Oct 16,Thursday,2073,Ashwin,12,,Shukla,
+14 Oct 16,Friday,2073,Ashwin,13,,Shukla,
+15 Oct 16,Saturday,2073,Ashwin,14,Yes,Shukla,Pakshik Pratikraman
+16 Oct 16,Sunday,2073,Ashwin,15,,Shukla,Navpad Oli Samapan; Shri Naminath - Chyavan Kalyanak
+,,,Karthik,1,,Krushna,
+17 Oct 16,Monday,2073,Karthik,2,,Krushna,
+18 Oct 16,Tuesday,2073,Karthik,3,,Krushna,
+19 Oct 16,Wednesday,2073,Karthik,4,,Krushna,
+20 Oct 16,Thursday,2073,Karthik,5,Yes,Krushna,Shri Sambhavnath - Kevalgyan Kalyanak
+21 Oct 16,Friday,2073,Karthik,6,Yes,Krushna,
+22 Oct 16,Saturday,2073,Karthik,7,Yes,Krushna,
+23 Oct 16,Sunday,2073,Karthik,8,Yes,Krushna,
+24 Oct 16,Monday,2073,Karthik,9,,Krushna,
+25 Oct 16,Tuesday,2073,Karthik,10,,Krushna,
+26 Oct 16,Wednesday,2073,Karthik,11,,Krushna,
+27 Oct 16,Thursday,2073,Karthik,12,,Krushna,Shri Padmaprabhswami - Janm Kalyanak; Shri Neminath - Chyavan Kalyanak
+28 Oct 16,Friday,2073,Karthik,13,Yes,Krushna,Shri Padmaprabhswami - Diksha Kalyanak
+29 Oct 16,Saturday,2073,Karthik,14,Yes,Krushna,Pakshik Pratikraman
+30 Oct 16,Sunday,2073,Karthik,30,,Krushna,Shri Mahaveerswami - Moksh Kalyanak; Diwali
+31 Oct 16,Monday,2073,Karthik,1,Yes,Shukla,Gautam Ras Vanchan
+1 Nov 16,Tuesday,2073,Karthik,2,,Shukla,
+2 Nov 16,Wednesday,2073,Karthik,3,Yes,Shukla,Shri Suvidhinath - Kevalgyan Kalyanak
+3 Nov 16,Thursday,2073,Karthik,4,,Shukla,
+4 Nov 16,Friday,2073,Karthik,4,,Shukla,
+5 Nov 16,Saturday,2073,Karthik,5,,Shukla,Gyan Panchami
+6 Nov 16,Sunday,2073,Karthik,6,,Shukla,
+7 Nov 16,Monday,2073,Karthik,7,Yes,Shukla,
+8 Nov 16,Tuesday,2073,Karthik,8,,Shukla,
+9 Nov 16,Wednesday,2073,Karthik,9,,Shukla,
+10 Nov 16,Thursday,2073,Karthik,10,Yes,Shukla,
+11 Nov 16,Friday,2073,Karthik,11,,Shukla,
+,,,Karthik,12,,Shukla,Shri Arnath - Kevalgyan Kalyanak
+12 Nov 16,Saturday,2073,Karthik,13,Yes,Shukla,
+13 Nov 16,Sunday,2073,Karthik,14,,Shukla,Choumasi Pratikraman
+14 Nov 16,Monday,2073,Karthik,15,Yes,Shukla,
