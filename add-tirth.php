@@ -42,6 +42,9 @@ if($_FILES["photo"]["name"]!="" && !empty($_FILES["photo"]["name"])){
 	'address'=>trim($_POST['tirth_address']),
 	'address_hindi'=>trim($_POST['tirth_address_hindi']),
 	'type'=>'tirth',
+	'state_id'=>$_POST['state_id'],
+	'description_hindi'=> trim($_POST['tirth_description_hindi']),
+	'address_hindi'=> trim($_POST['tirth_address_hindi']),
 	'image'=>$profile_photo));
 	
 	$result = json_decode($result);
@@ -65,6 +68,8 @@ if($_FILES["photo"]["name"]!="" && !empty($_FILES["photo"]["name"])){
 	
 }
 
+ $states_result = $Obj->httpGet(ADMIN_URL.'api/states');
+    $states_result = json_decode($states_result);
 
 
 if(isset($_POST['add_gallery_submit']) && !empty($_POST['add_gallery_submit'])){
@@ -245,8 +250,27 @@ include_once('form-header.php');?>
 									</div>
 									</div>
 								</div>
-			
-			
+			<br/>
+			                       <div class="form-group">
+									<label class="control-label col-md-3">Tirth State</label>
+									<div class="col-md-5">
+											<div class="input-wrapper">
+												<select name="state_id" class="selecter" required>
+													<option value="">-Select-</option>
+													<?php
+														if(!empty($states_result->success)){
+															foreach($states_result->states_array as $states_value){
+													?>
+															<option value="<?php echo $states_value->state_id; ?>"><?php echo $states_value->name; ?></option>
+													<?php
+															}
+														}
+													?>
+												</select>
+										</div>
+									</div>
+								</div>
+			<br/>
 			
 								 <div class="form-group">
 									<label class="control-label col-md-3">Tirth Address</label>
@@ -269,7 +293,26 @@ include_once('form-header.php');?>
 										</div>
 									</div>
 								</div>
-								
+								<div class="form-group">
+									<label class="control-label col-md-3">Tirth Description</label>
+									<div class="col-md-5">
+										<div class="inputer">
+											<div class="input-wrapper">
+												<textarea name="tirth_description" class="form-control" required></textarea>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="control-label col-md-3">Tirth Description (Hindi)</label>
+									<div class="col-md-5">
+										<div class="inputer">
+											<div class="input-wrapper">
+												<textarea name="tirth_description_hindi" class="form-control" required></textarea>
+											</div>
+										</div>
+									</div>
+								</div>
 							<div class="form-group">
 									<label class="control-label col-md-3">Image</label>
 									<div class="col-md-5">

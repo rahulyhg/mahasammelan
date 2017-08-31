@@ -13,4 +13,3 @@ Template.hello.events({
     Buttons.insert({name: _.sample(['No, click ME!', 'Click me too!', 'Click here!', 'Hey!', 'Psst!'])});
   }
 });
-

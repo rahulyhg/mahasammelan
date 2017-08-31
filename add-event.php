@@ -42,7 +42,7 @@ if($_FILES["photo"]["name"]!="" && !empty($_FILES["photo"]["name"])){
 		$error_msg = " Error uploading  file!";
 	}
 	
-	//$Obj->Redirect("events.php");
+	$Obj->Redirect("events.php");
 	
 	
 }
@@ -87,7 +87,7 @@ include_once('form-header.php');?>
 									<div class="col-md-5">
 										<div class="inputer">
 											<div class="input-wrapper">
-													<input type="text" style="width: 400px" name="event_date_time" class="form-control bootstrap-daterangepicker-date-time" value="" readonly>
+													<input type="text" style="width: 400px" name="event_date_time" class="form-control bootstrap-daterangepicker-date-time" value="" required readonly>
 											</div>
 										</div>
 									</div>

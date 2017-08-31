@@ -61,4 +61,3 @@ Tinytest.addAsync('Visual check - Material Design', function (test, done) {
   });
 
 });
-

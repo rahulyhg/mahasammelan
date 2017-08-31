@@ -2180,4 +2180,3 @@ if (!Array.prototype.indexOf) {
   
 return GMaps;
 }));
-

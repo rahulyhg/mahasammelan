@@ -40,8 +40,13 @@ if($_FILES["photo"]["name"]!="" && !empty($_FILES["photo"]["name"])){
 		}
 
 
-	$postfields = array('group_id'=>$_POST['group_id'],'username'=>trim($_POST['username']),'username_hindi'=>trim($_POST['username_hindi']),'mobile_number'=>$_POST['mobile_number'],'password'=>$_POST['password'],'username_hindi'=> urlencode(trim($_POST['username_hindi'])),
-	'user_type'=>$_POST['user_type'],'diksha_date'=>$_POST['diksha_date'],'image'=>$profile_photo);
+	$postfields = array('group_id'=>$_POST['group_id'],'username'=>trim($_POST['username']),
+	'username_hindi'=>trim($_POST['username_hindi']),
+	'mobile_number'=>$_POST['mobile_number'],
+	'password'=>$_POST['password'],
+	'username_hindi'=> urlencode(trim($_POST['username_hindi'])),
+	'user_type'=>$_POST['user_type'],
+	'diksha_date'=>$_POST['diksha_date'],'image'=>$profile_photo);
        
 	$result = $Obj->httpPost(ADMIN_URL.'api/user/edit/'.$_POST['user_id'],$postfields);
 	
@@ -305,7 +310,7 @@ include_once('form-header.php');?>
 
 														<div class="input-wrapper">
 
-				<input type="text" name="username" value="<?php echo $user_result->user_array->username_hindi; ?>" class="form-control" required>
+				<input type="text" name="username_hindi" value="<?php echo $user_result->user_array->username_hindi; ?>" class="form-control" required>
 
 														</div>
 

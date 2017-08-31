@@ -8,10 +8,10 @@ $Obj = new Query(DB_NAME);
 
 $error_msg = '';
 
-
-if(isset($_POST['edit_user_submit']) && !empty($_POST['edit_user_submit'])){
-	
+if(isset($_POST['edit_dadawadi_submit']) && !empty($_POST['edit_dadawadi_submit'])){
+	//print_r($_POST['edit_dadawadi_submit']);die;
 	$profile_photo = "";
+//echo 	$profile_photo  ."<br>";
 if($_FILES["photo"]["name"]!="" && !empty($_FILES["photo"]["name"])){
 	
 	if ($_FILES["photo"]["error"] > 0) { 
@@ -32,29 +32,29 @@ if($_FILES["photo"]["name"]!="" && !empty($_FILES["photo"]["name"])){
 			$error = "Uploaded image should be jpg or gif or png";  
 		}
 		}else{
-			$profile_photo = $_POST['old_image'];;
+			$profile_photo = $_POST['old_image'];
 		}
-	
-	$result = $Obj->httpPost(ADMIN_URL.'api/religiousplaces/edit/'.$_POST['id'],array('name'=>trim($_POST['tirth_name']),
-	'name_hindi'=>trim($_POST['tirth_name_hindi']),
+	//print_r($profile_photo);
+	$postfields=array('name'=>trim($_POST['tirth_name']),
 	'address'=>trim($_POST['tirth_address']),
+	'description'=>trim($_POST['tirth_description']),
+	'name_hindi'=>trim($_POST['tirth_name_hindi']),
 	'address_hindi'=>trim($_POST['tirth_address_hindi']),
-	'image'=>$profile_photo));
+	'description_hindi'=>trim($_POST['tirth_description_hindi']),
+	'image'=>$profile_photo,
+	'state_id'=>$_POST['state_id']);
+	
+	//print_r($postfields); die;
+	//echo "api/religiousplaces/edit/";die;
+	$result = $Obj->httpPost(ADMIN_URL.'api/religiousplaces/edit/'.$_POST['id'],$postfields);
+	
+	
 	$result = json_decode($result);
+	//print_r($result); die;
 	$Obj->Redirect("tirth.php");
+	 
 }
-
-
-if(!empty($_GET['id'])){
-	$id = $Obj->decrypt($_GET['id']);
-}
-
-// Get group info
-$result = $Obj->httpGet(ADMIN_URL.'api/religiousplaces/single/'.$id);
-$place_result = json_decode($result);
-
-  
-
+ 
 
 
 if(isset($_POST['add_submit']) && !empty($_POST['add_submit'])){
@@ -93,11 +93,6 @@ $profile_photo = '';
 }
 
 
-
-
-
-
-
 if(!empty($_GET['id'])){
 
 	$user_id = $Obj->decrypt($_GET['id']);
@@ -105,36 +100,35 @@ if(!empty($_GET['id'])){
 }
 
 
-
-
-
-if(!empty($_GET['note_id'])){
-
-	$note_id = $Obj->decrypt($_GET['note_id']);
-
+ if(!empty($_GET['id'])){
+	$id = $Obj->decrypt($_GET['id']);
 }
+//echo "api/religiousplaces/single/"; die;
+// Get group info
+$result_places = $Obj->httpGet(ADMIN_URL.'api/religiousplaces/single/'.$id);
+
+ 
+$place_result = json_decode($result_places);
+//print_r($place_result);
+  
+// Get states info
+$states_result = $Obj->httpGet(ADMIN_URL.'api/states');
+$states_result = json_decode($states_result);
 
 
 
-
-
-// Get user info
-
-$result = $Obj->httpGet(ADMIN_URL.'api/user/info/'.$user_id);
-
-$user_result = json_decode($result);
 //print_r($user_result);
 // Get group info
 
-$result = $Obj->httpGet(ADMIN_URL.'api/groups');
+$result_groups = $Obj->httpGet(ADMIN_URL.'api/groups');
 
-$group_result  = json_decode($result);
+$group_result  = json_decode($result_groups);
 
 //for images
 
-$result = $Obj->httpGet(ADMIN_URL.'api/religiousimage/'.$id);
+$result_imges = $Obj->httpGet(ADMIN_URL.'api/religiousimage/'.$id);
 
-$image_result  = json_decode($result);
+$image_result  = json_decode($result_imges);
 //print_R($image_result);//die;
 
 include_once('form-header.php');?>
@@ -177,12 +171,10 @@ include_once('form-header.php');?>
                    
 							<li class="active"><a href="#panel-tab1" data-toggle="tab" class="btn-ripple">Edit Tirth</a></li>
 							
-						<?php if($user_result->user_array->user_type == 'User'){?>
-										
-											<?php }else{?>
+						
 								
 							<li><a href="#panel-tab4" data-toggle="tab" class="btn-ripple">Religious Image</a></li>
-								<?php  }?>
+								
 						</ul>
 
 					</div>
@@ -211,9 +203,10 @@ include_once('form-header.php');?>
 					<?php }?>
 								
 
-										<form action="" class="form-horizontal parsley-validate" method="post" enctype="multipart/form-data">
+										<form action="" class="form-horizontal parsley-validate" id ="form2" method="post" enctype="multipart/form-data">
+								<input type="hidden" name="old_image"  class="form-control" value="<?php echo $place_result->place_array->image ?>" />
 								<input type="hidden" name="id" value="<?php echo $id; ?>" />
-							<input type="hidden" name="old_image"  class="form-control" value="<?php echo $place_result->place_array->image ?>" />
+								
 							<div class="form-body">
 
 								<div class="form-group">
@@ -226,6 +219,7 @@ include_once('form-header.php');?>
 										</div>
 									</div>
 									</div>
+									
 									<div class="form-group">
 									<label class="control-label col-md-3">Tirth Name (Hindi)</label>
 									<div class="col-md-5">
@@ -238,11 +232,33 @@ include_once('form-header.php');?>
 									</div>
 								</div>
 			
+			                        <br/>
 			
-								
-								 
-									
-								<div class="form-group">
+			                           <div class="form-group">
+									<label class="control-label col-md-3">Tirth State</label>
+									<div class="col-md-5">
+											<div class="input-wrapper">
+												<select name="state_id" class="selecter" required>
+													<option value="">-Select-</option>
+													<?php
+														if(!empty($states_result->success)){
+															foreach($states_result->states_array as $states_value){
+													?>
+															<option value="<?php echo $states_value->state_id; ?>" <?php if($states_value->state_id == $place_result->place_array->state_id){?>selected<?php } ?>><?php echo $states_value->name; ?></option>
+													<?php
+															}
+														}
+													?>
+												</select>
+										</div>
+									</div>
+								</div>
+			
+			
+			                  <br/>
+			                  
+			                  
+								 <div class="form-group">
 									<label class="control-label col-md-3">Tirth Address</label>
 									<div class="col-md-5">
 										<div class="inputer">
@@ -253,10 +269,8 @@ include_once('form-header.php');?>
 									</div>
 								</div>
 								
-								
-								
 								<div class="form-group">
-									<label class="control-label col-md-3">Tirth Address (Hindi)</label>
+									<label class="control-label col-md-3">Tirth Address(Hindi)</label>
 									<div class="col-md-5">
 										<div class="inputer">
 											<div class="input-wrapper">
@@ -265,13 +279,38 @@ include_once('form-header.php');?>
 										</div>
 									</div>
 								</div>
+								
+								<div class="form-group">
+									<label class="control-label col-md-3">Tirth Description</label>
+									<div class="col-md-5">
+										<div class="inputer">
+											<div class="input-wrapper">
+												<textarea name="tirth_description" class="form-control" required><?php echo $place_result->place_array->description; ?></textarea>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								
+								<div class="form-group">
+									<label class="control-label col-md-3">Tirth Description(Hindi)</label>
+									<div class="col-md-5">
+										<div class="inputer">
+											<div class="input-wrapper">
+												<textarea name="tirth_description_hindi" class="form-control" required><?php echo $place_result->place_array->description_hindi; ?></textarea>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								
 							<div class="form-group">
 									<label class="control-label col-md-3">Image</label>
 									<div class="col-md-5">
 										<div class="inputer">
 											<div class="input-wrapper">
 												<input type="file" name="photo" class="form-control "  parsley-required="true">
-												<img src="<?php echo 'uploads/' .$place_result->place_array->image; ?>"  width = "150px" height = "150px"readonly />
+												<img src="<?php echo  'uploads/'.$place_result->place_array->image; ?>"  width = "150px" height = "150px"readonly />
 											</div>
 										</div>
 									</div>
@@ -280,37 +319,41 @@ include_once('form-header.php');?>
 							<div class="form-actions">
 								<div class="row">
 									<div class="col-md-offset-3 col-md-9">
-										
+										<button type="submit" name="edit_dadawadi_submit" value="1"  form="form2"  class="btn btn-primary">Update</button>
+										<a href="dadawadi.php" class="btn btn-flat btn-default">Cancel</a>
+									
 									</div>
 								</div>
 							</div>
-						</form>
-					
-								<?php
+						</form>      
+						<?php
 									if($_SESSION['admin_status'] == '1'){
 								?>
                                    	<div class="form-buttons form-group clearfix">
 
 									<div class="pull-right">
 
-										<button type="submit" name="edit_user_submit" value="1" class="btn btn-blue" form="user_edit_from">Update</button>
-
+									
+										<button type="submit" name="edit_dadawadi_submit" value="1"  form="form2"  class="btn btn-primary">Update</button>
 										<a href="tirth.php" class="btn btn-flat btn-default">Cancel</a>
-
+									
 									</div>
 
 								</div>
+ 
+    <?php } ?>
 
-		
-
+ 
+							</div>
 							
-                                <?php } ?>
 
-		
+							<div id="panel-tab3" class="tab-pane">
+
+
+
+
 
 							</div>
-
-							
 
 							<div id="panel-tab4" class="tab-pane">
 
@@ -354,19 +397,20 @@ include_once('form-header.php');?>
 												</table>				
 											<?php } ?>
 											</div>
-									</div>
-								</div>
-							</div>
-							<div class="form-actions">
+											
+											<div class="form-actions">
 								<div class="row">
 									<div class="col-md-offset-3 col-md-9">
 										<button type="submit" name="add_submit" value="1" form="Form1"  class="btn btn-primary">Submit</button>
 										<a href="tirth.php" class="btn btn-flat btn-default">Cancel</a>
-
 									</div>
 								</div>
 							</div>
-					</div><!--.row-->
+					
+									</div>
+								</div>
+							</div>
+							</div><!--.row-->
 
 				</div><!--.panel-body-->
 			</div><!--.panel-->
@@ -440,7 +484,7 @@ include_once('form-header.php');?>
 
 					<input type="text" id="input-search" class="form-control" placeholder="type something">
 
-					<button type="submit" class="btn btn-default disabled"><i class="ion-search"></i></button>
+				
 
 				</div>
 

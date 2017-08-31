@@ -13,12 +13,14 @@ if(empty($_SESSION['gallery_id'])){
 //echo $_SESSION['gallery_id']."<br>";
 if(isset($_POST['add_photo_gallery_submit']) && !empty($_POST['add_photo_gallery_submit'])){
 	
-	//print_r($_SESSION['gallery_id']);die;
-	$result = $Obj->httpPost(ADMIN_URL.'api/gallery/add',array('title'=>trim($_POST['title']),'gallery_id'=>$_SESSION['gallery_id']));
-	$result = json_decode($result);
 	
+	$result = $Obj->httpPost(ADMIN_URL.'api/gallery/add',array('title'=>trim($_POST['title']),'gallery_id'=>$_SESSION['gallery_id']));
+	
+	$result = json_decode($result);
+
 	if($result->success=='1')
 	{
+		
 		session_destroy($_SESSION['gallery_id']);
 	 session_unset($_SESSION['gallery_id']);
 	
@@ -30,7 +32,7 @@ if(isset($_POST['add_photo_gallery_submit']) && !empty($_POST['add_photo_gallery
 	}
 	
 
-	//$Obj->Redirect("photo-gallery.php");
+	$Obj->Redirect("photo-gallery.php");
 	
 }
 

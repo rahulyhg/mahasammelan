@@ -1065,6 +1065,8 @@ class UploadHandler
                     );
                 } else {
                     move_uploaded_file($uploaded_file, $file_path);
+                    
+                    if($_SESSION['gallery_id']){
 					if(empty($_SESSION['gallery_id'])){
 						$gallery_id = time();
 					}else{
@@ -1074,8 +1076,15 @@ class UploadHandler
 					$sql = "INSERT INTO `gallery_images` (`gallery_image`,`gallery_id`)  VALUES ('".$file->name."','".$gallery_id."')";
 					@mysql_query($sql);
 					//echo $sql;
+				}elseif($_SESSION['image_id']){
+					
+					$sql = "INSERT INTO ` religious_images` (`image`,`religious_id`)  VALUES ('".$file->name."','".$_SESSION['image_id']."')";
+					
+					@mysql_query($sql);
 					
 					
+					}
+										
                 }
             } else {
                 // Non-multipart uploads (PUT method support)

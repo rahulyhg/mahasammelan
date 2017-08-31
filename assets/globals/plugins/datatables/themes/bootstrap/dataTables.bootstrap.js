@@ -150,4 +150,3 @@ if ( $.fn.DataTable.TableTools ) {
 	} );
 }
 
-

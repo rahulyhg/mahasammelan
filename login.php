@@ -12,11 +12,11 @@ if(isset($_POST['login_submit']) && !empty($_POST['login_submit'])){
 					'password'=>urlencode(trim($_POST['password']))
 					);
 
-	
+         
 	$result = $Obj->httpPost(ADMIN_URL.'api/admin/login',$postfields);
-
+//print_r($result);
 	$result = json_decode($result);
-	
+		//print_r($result); die;
 	if(!empty($result->success)){
 			
 		$_SESSION['admin_id'] = $result->admin_array->user_id;

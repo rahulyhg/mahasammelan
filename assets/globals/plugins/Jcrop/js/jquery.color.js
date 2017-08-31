@@ -659,4 +659,3 @@
 		_default: "#ffffff"
 	};
 })( jQuery );
-

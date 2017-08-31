@@ -37,4 +37,3 @@ Package.onTest(function (api) {
 
   api.addFiles('meteor/test.js', where);  // same test because we don't test the glyphicons in particular (that's the job of twbs:bootstrap)
 });
-

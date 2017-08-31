@@ -162,4 +162,3 @@ var emojies = [
   'womans_hat', 'womens', 'worried', 'wrench', 'x', 'yellow_heart', 'yen',
   'yum', 'zap', 'zero', 'zzz'
 ];
-

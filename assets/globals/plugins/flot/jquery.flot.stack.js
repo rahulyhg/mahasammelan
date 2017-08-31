@@ -186,4 +186,3 @@ charts or filled areas).
         version: '1.2'
     });
 })(jQuery);
-

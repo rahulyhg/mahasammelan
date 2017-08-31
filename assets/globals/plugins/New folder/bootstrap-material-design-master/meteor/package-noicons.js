@@ -32,4 +32,3 @@ Package.onTest(function (api) {
 
   api.addFiles('meteor/test-noicons.js', where);
 });
-

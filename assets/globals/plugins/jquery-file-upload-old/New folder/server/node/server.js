@@ -290,4 +290,3 @@
         require('http').createServer(serve).listen(port);
     }
 }(8888));
-

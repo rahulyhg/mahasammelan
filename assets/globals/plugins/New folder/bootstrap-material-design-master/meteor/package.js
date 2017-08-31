@@ -37,4 +37,3 @@ Package.onTest(function (api) {
 
   api.addFiles('meteor/test.js', where);
 });
-

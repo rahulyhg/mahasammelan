@@ -228,4 +228,3 @@
         Object.seal(win.notify);
     }
 }(window));
-

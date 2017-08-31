@@ -57,4 +57,3 @@ can just fix the size of their placeholders.
         version: '1.0'
     });
 })(jQuery);
-

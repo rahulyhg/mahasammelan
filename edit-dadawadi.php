@@ -232,9 +232,9 @@ include_once('form-header.php');?>
 									</div>
 								</div>
 			
+			                        <br/>
 			
-			
-			<div class="form-group">
+			                           <div class="form-group">
 									<label class="control-label col-md-3">Dadawadi State</label>
 									<div class="col-md-5">
 											<div class="input-wrapper">
@@ -255,7 +255,7 @@ include_once('form-header.php');?>
 								</div>
 			
 			
-			                  
+			                  <br/>
 			                  
 			                  
 								 <div class="form-group">

@@ -46,13 +46,13 @@
           <li><a href="add-photo-gallery.php">Add New</a></li>
         </ul>
       </li>
-      
-     <li> <a href="javascript:;">Video Gallery</a>
+    
+     <!--<li> <a href="javascript:;">Video Gallery</a>
         <ul class="child-menu">
           <li><a href="video_gallery.php">All Gallery</a></li>
           <li><a href="add_video_gallery.php">Add New</a></li>
         </ul>
-      </li>
+      </li>-->
 
 	<li> <a href="javascript:;">Stavan Sangrah</a>
         <ul class="child-menu">
