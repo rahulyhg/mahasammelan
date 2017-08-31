@@ -37,9 +37,9 @@
 		//password: Vardhaman!@#12
 		//db user: vardhaman
 
-		define("ADMIN_URL","http://localhost/sadhu/",true);
-		define("IMG_URL","http://localhost/sadhu/assets/globals/plugins/jquery-file-upload/server/php/files/",true);
-		define("VIDEO_URL","http://localhost/sadhu/uploads/",true);
+		define("ADMIN_URL","http://localhost/core/mahasammelan/",true);
+		define("IMG_URL","http://localhost/core/mahasammelan/assets/globals/plugins/jquery-file-upload/server/php/files/",true);
+		define("VIDEO_URL","http://localhost/core/mahasammelan/uploads/",true);
 		define("DB_HOST","localhost",true);
 		define("DB_NAME","sadhu",true);
 		define("DB_USERNAME","root",true);
